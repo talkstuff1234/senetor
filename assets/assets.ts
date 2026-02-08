@@ -11,6 +11,7 @@ import image8 from "./image-8.png";
 import image9 from "./image-9.png";
 import image10 from "./image-10.png";
 import image11 from "./image-11.jpg";
+import image12 from "./image-12.jpeg";
 import icon1 from "./icon-1.svg";
 import icon2 from "./icon-2.svg";
 import icon3 from "./icon-3.svg";
@@ -30,6 +31,7 @@ export const assets = {
   image9,
   image10,
   image11,
+  image12,
   icon1,
   icon2,
   icon3,

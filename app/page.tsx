@@ -135,7 +135,7 @@ export default function Home() {
                 variants={fadeInUp}
                 className="mb-4 uppercase tracking-widest text-white"
               >
-                Distinguished Senator Ahmed Wadada Aliyu (FNIPR, FCT)
+                Distinguished Senator Ahmed Wadada Aliyu (FNIPR, FCTI)
               </motion.p>
 
               <motion.h1
