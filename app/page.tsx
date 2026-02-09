@@ -161,9 +161,11 @@ export default function Home() {
                   Leadership Scorecard
                 </button>
 
-                <button className="rounded-full border border-white/40 px-6 py-3 text-sm font-medium transition hover:bg-white/10">
-                  Vision for Nasarawa
-                </button>
+                <a href="#Vision">
+                  <button className="rounded-full border border-white/40 px-6 py-3 text-sm font-medium transition hover:bg-white/10">
+                    Vision for Nasarawa
+                  </button>
+                </a>
               </motion.div>
 
               <motion.div
@@ -253,7 +255,7 @@ export default function Home() {
                   Senator Ahmed Wadada Aliyu is not new to responsibility. His
                   public service record reflects years of legislative
                   leadership, constituency development, and people-centered
-                  representation across Keffi, Karu, and Kokona. His experience
+                  representation across Keffi, Karu, Kokona, etc. His experience
                   combines governance, oversight, and community engagement — the
                   exact foundation required to lead Nasarawa State at the
                   executive level.
