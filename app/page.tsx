@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion, Variants, HTMLMotionProps } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, ReactNode } from "react";
+import Link from "next/link";
 
 // Animation variants with proper typing
 const fadeInUp: Variants = {
@@ -157,9 +158,14 @@ export default function Home() {
               </motion.p>
 
               <motion.div variants={fadeInUp} className="flex flex-wrap gap-4">
-                <button className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-gray-200">
-                  Leadership Scorecard
-                </button>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1sXCjTLVGz4Ub5HI9XN_1bE0TuEQwgXJE"
+                  download
+                >
+                  <button className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-gray-200">
+                    Leadership Scorecard
+                  </button>
+                </a>
 
                 <a href="#Vision">
                   <button className="rounded-full border border-white/40 px-6 py-3 text-sm font-medium transition hover:bg-white/10">

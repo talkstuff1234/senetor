@@ -17,6 +17,7 @@ import icon2 from "./icon-2.svg";
 import icon3 from "./icon-3.svg";
 import icon4 from "./icon-4.svg";
 
+// import pdf from './'
 export const assets = {
   hero,
   arrowDown,
